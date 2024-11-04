@@ -26,6 +26,153 @@
 22. Write Terraform code for an EC2 instance with security groups using    depends_on?
 
 ============================================================================
+2.interview 
+============================================================================
+List of questions 
+
+------------------------------------------------------------GIT ---------------------------------------------
+
+1. Why we need git? What makes git unique from other tools like SVN?
+
+2. Let's say i have maven repo cloned on to my local, did some changes and i have build the code now target folder will be generated.    So now when i do git operations like git add, git commit or any other git operations target folder should not be considered, how would you achieve the same?
+
+3. difference between git pull and git fetch?
+
+4. How to clone specific branch in git?
+
+5. What is main difference between Fork and Clone in GIT?
+
+6. When to Fork and How to Fork in GIT, Explain pls?
+
+7. What do you mean by Pull and Pull Request?
+
+8. What is Rebase and why do we use Rebase in GIT?
+
+9. Explain Stash in GIT and expalin with examples.
+
+10. How does Distributed VCS come into picture?
+
+11. Explain Conflict and how do you resolve?
+
+12. Explain Branching in GIT.
+
+13. diff.- git merge vs git rebase || git pull vs git fetch.
+
+---------------------------------------------------------Maven ---------------------------------------------
+
+1. when i issue mvn install what all things happen in background?
+
+2. what are the settings you need to do before running mvn deploy?
+
+3. why maven takes much time for 1st execution and from 2nd execution it will take less time?
+
+-------------------------------------------- Unix and Shell Scripting ----------------------------------
+
+1. How to get present working folder?
+
+2. How to copy files from local windows machine to cloud based Linux machine?
+
+3. A shell script named test.sh can accept 4 parameters i.e, a,b,c,d. the parameters wont be supplied in order always and number of parameters might also vary( only 2 parameters user might supply sometimes), how to identify position of letter c?
+
+4.command to make all file executable?
+
+5.Command to open existing file in read-only mode.
+
+6. List of command they will ask to expalin
+
+     a) Chmod b) grep c) how to know disk usage of directory in bytes
+
+-------------------------------------------------------Ansible-----------------------------------------------
+
+1. Why we need ad-hoc ansible commands, scenario where you have used ansible ad-hoc command?
+
+2. When i need detailed logs on executing ansible playbook what option i need to use?
+
+3. what is ansible.cfg file?
+
+4. what are the modules have you worked on? which module will you use for getting the file from node to master?
+
+5. Lets say i have a playbook which has 5 tasks in playbook, first 2 tasks should run on local machine and other 3 tasks should run on node?
+
+------------------------------------------------------Jenkins-----------------------------------------------
+
+1. How to save only last 5 builds of jenkins job? What is Jenkins and why is it used?
+
+2. Have you worked on Jenknsfile? can we use docker container as a node in Jenkinsfile? Who will handle docker container creation and deletion? If i am building a maven project always docker container is fresh instance it will try to download dependency from repository, what measures you will take to reduce build time?
+
+3. Why we need multi branch pipeline?
+
+4. If you forget Jenkins password, how would you login back?
+
+5. Learn about CRON syntax in Jenkins and how to use|| What syntax does Jenkins use to schedule build job or SVN polling?
+
+6. JenkinsFile and type.Learn with syntax and explaination.
+
+7. How to create slave node and why do we do so?
+
+8. How is continuous integration achieved using Jenkins? Give a simple use case/scenario to explain how Jenkins works.|| What is the process of Jenkins?
+
+9. Have you created a build job in Jenkins? Explain how to do it.
+
+-------------------------------------------------------Docker-----------------------------------------------
+
+1. Any 3 best practices of docker?
+
+2. Difference between docker stop and docker kill?
+
+3. Command to list conatiners which state is exited?
+
+4. command to clean-up docker host ( deleting stopped conatiners, dangling images and unused networks)?
+
+5. What version of docker you have used? Specific reason to use that particular version?
+
+6. Can we have multiple CMD in Dockerfile?
+
+7. Have you worked on docker swarm and docker compose?
+
+8. Diff. b/w CMD and ENTRYPOINT.
+
+9. what is docker image and container?
+
+10.Command to check CPU & Memory utilization of container.
+
+11.Learn about all command that we use with image and container.
+
+12. What is DockerFile and how to write it?
+
+------------------------------------------------------------Kubernetes------------------------------------
+
+1. Can we have multiple containers in a pod? Can we have similar containers in a pod? Lets say i have 4 containers, one of them has failed how would you check which container has failed?
+
+2. What is liveness and readiness probe? Why we need them?
+
+3. Have you worked on kubernetes monitoring? Which tools you have used?
+
+4. Can we deploy a pod on particular node?
+
+5. Expalin Kunernetes Architecture.
+
+6. Diff. b/w deployment & Statefull Set.
+
+7. Use of Service Account.
+
+8. Once you write deployment and deployed into cluster then how to access your application outside the world.
+
+9. Diff. b/w Configmap& Secrets.
+
+10. ClusterIP in Kubernetes.
+
+11. why Deamon set required for Kubernetes?
+
+12. How will you deploy particular node.
+
+13. How many NameSpace available in Kubernetes.
+
+14. use of PV and PVC in Kubernetes.
+
+15. Have you setup any tools in kubernetes?
+
+16. Learn Concept like- Service, Namespace, Replica and Replication control, NodePort, ClusterIP, Loadbalance.
 
 
 
