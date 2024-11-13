@@ -1,0 +1,17 @@
+What is Metrics Data?
+Metrics data refers to numerical data that is collected and recorded over time. It represents quantitative information about the performance or behavior of a system, application, or service. Unlike traditional data that might represent discrete values (e.g., user information or transaction data), metrics data is time-dependent and focuses on tracking performance, resource usage, or other key indicators over time.
+
+Some examples of metrics data include:
+
+CPU usage: How much CPU time a system or process is using over time.
+Memory usage: The amount of memory (RAM) a system or application is consuming.
+Request count: The number of requests handled by a web server in a given time window.
+Response time: The time it takes to process and respond to requests.
+Characteristics of Metrics Data in Prometheus:
+Time-dependent: Metrics are often timestamped, meaning they are collected at regular intervals or triggered by specific events.
+Quantitative: The data typically represents numbers, such as counts, gauges, or histograms.
+Tags (Labels): Metrics in Prometheus can have labels, which are key-value pairs that provide more context to the metric (e.g., the application name, environment, or server name).
+How Prometheus Stores Metrics Data:
+Prometheus stores metrics as time-series. Each time-series consists of a metric name (e.g., http_requests_total) and an optional set of labels that further describe the metric. Prometheus then stores these values as timestamped data points—for example, recording the number of HTTP requests served by a web server at specific points in time.
+
+This data can then be queried using Prometheus's query language, PromQL, to generate graphs, monitor system behavior, and set up alerts.
