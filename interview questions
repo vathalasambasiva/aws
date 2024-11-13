@@ -15,3 +15,15 @@ How Prometheus Stores Metrics Data:
 Prometheus stores metrics as time-series. Each time-series consists of a metric name (e.g., http_requests_total) and an optional set of labels that further describe the metric. Prometheus then stores these values as timestamped data points—for example, recording the number of HTTP requests served by a web server at specific points in time.
 
 This data can then be queried using Prometheus's query language, PromQL, to generate graphs, monitor system behavior, and set up alerts.
+
+
+
+
+
+What is main purpose of Prometheus?
+
+Prometheus is an open-source monitoring and alerting toolkit originally built at SoundCloud. Its primary purpose is to collect metrics from various systems, store them, allow querying and analysis of these metrics, and trigger alerts based on predefined conditions.
+
+How does Prometheus collect metrics?
+
+Prometheus uses a pull-based model, where it scrapes metrics from instrumented targets at regular intervals. Targets expose metrics in a format Prometheus can understand, typically through an HTTP endpoint.
