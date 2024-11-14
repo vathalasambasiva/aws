@@ -27,3 +27,17 @@ Prometheus is an open-source monitoring and alerting toolkit originally built at
 How does Prometheus collect metrics?
 
 Prometheus uses a pull-based model, where it scrapes metrics from instrumented targets at regular intervals. Targets expose metrics in a format Prometheus can understand, typically through an HTTP endpoint.
+
+
+
+
+node_cpu_usage{instance="webserver1"}
+avg(http_request_latency{job="webserver"}[5m])
+
+
+Question: Identify the pods with the highest memory usage in the “production” namespace within Kubernetes.
+
+Answer:
+
+container_memory_usage_bytes{namespace="production"} order by desc limit 5
+
