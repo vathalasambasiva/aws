@@ -1,0 +1,20 @@
+last 30 days old records delete 
+
+find "$WORK_DIR" -type f --name ".*log" -mtime +30 -exec rm -f {} \;
+
+
+#!/bin/bash
+
+# Directory containing the log files
+LOG_DIR="/path/to/logs"
+
+# Find and delete log files older than 30 days
+find "$LOG_DIR" -type f -name "*.log" -mtime +30 -exec rm -f {} \;
+
+echo "Old log files deleted from $LOG_DIR"
+
+
+ 1.Lists the top processes by CPU usage.
+ ps aux --sort=-%cpu | head -n 10:
+ 2.Lists the top processes by memory usage.
+ ps aux --sort=-%mem | head -n 10:
